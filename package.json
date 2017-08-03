@@ -1,0 +1,19 @@
+{
+  "name": "fcc-image-search-abstract-layer",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.30",
+    "request": "^2.81.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beastoso/image-search.git"
+  }
+}
