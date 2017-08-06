@@ -41,8 +41,8 @@ app.route('/api/latest/imagesearch/').get(function(req, res, next) {
     searches.forEach(function(search) {
       var d = new Date(search.date);
        result.push({
-         'date': d.toDateString()+" "+(d.getHours()-1)+":"+d.getMinutes(),
-         'query': search.query
+          'term': search.query,
+         'when': d.toDateString()+" "+(d.getHours()-1)+":"+d.getMinutes()
        });                
      });
       
